@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Sarabun:wght@300;400;500;600;700;800&display=swap');
+body {
+    font-family: 'Sarabun', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-item {
+    padding: 20px 25px !important;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 600;
+    color: #fff !important;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #ffa301 !important;
+}
+
+.title {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.description {
+    font-size: 24px;
+}
+
+.special {
+    color: #ffa301;
+    text-shadow: 0 0 2px #525252;
+}
+
+.links {
+    transition: 200ms linear;
+}
+
+.links:hover {
+    border: 1px solid #ffa301;
+    box-shadow: 0 0 10px #ffa301;
+    color: #000;
+}
+
+header {
+    border-bottom: 3px solid #ffa301;
+}
+
+iframe {
+    width: 100%;
+    min-height: 400px;
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #ffa301;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #d88900;
+}
